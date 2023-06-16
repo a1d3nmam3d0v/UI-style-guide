@@ -1,0 +1,270 @@
+/* untitled serif */
+/* font-family: 'untitled-serif-regular'; */
+/* font-family: 'untitled-serif-regular-italic'; */
+/* font-family: 'untitled-serif-medium'; */
+/* font-family: 'untitled-serif-medium-italic'; */
+/* font-family: 'untitled-serif-bold'; */
+/* font-family: 'untitled-serif-bold-italic'; */
+
+@font-face {
+    font-family: 'untitled-serif-regular';
+    src: url('test-untitled-serif-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'untitled-serif-regular-italic';
+    src: url('test-untitled-serif-regular-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'untitled-serif-medium';
+    src: url('test-untitled-serif-medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'untitled-serif-medium-italic';
+    src: url('test-untitled-serif-medium-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'untitled-serif-bold';
+    src: url('test-untitled-serif-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'untitled-serif-bold-italic';
+    src: url('test-untitled-serif-bold-italic.woff2') format('woff2');
+}
+
+
+
+/* untitled sans */
+/* font-family: 'untitled-sans-light'; */
+/* font-family: 'untitled-sans-light-italic'; */
+/* font-family: 'untitled-sans-regular'; */
+/* font-family: 'untitled-sans-regular-italic'; */
+/* font-family: 'untitled-sans-medium'; */
+/* font-family: 'untitled-sans-medium-italic'; */
+/* font-family: 'untitled-sans-bold'; */
+/* font-family: 'untitled-sans-bold-italic'; */
+/* font-family: 'untitled-sans-black'; */
+/* font-family: 'untitled-sans-black-italic'; */
+
+@font-face {
+font-family: 'untitled-sans-light';
+src: url('test-untitled-sans-light.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'untitled-sans-light-italic';
+src: url('test-untitled-sans-light-italic.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-regular';
+src: url('test-untitled-sans-regular.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-regular-italic';
+src: url('test-untitled-sans-regular-italic.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-medium';
+src: url('test-untitled-sans-medium.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-medium-italic';
+src: url('test-untitled-sans-medium-italic.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-bold';
+src: url('test-untitled-sans-bold.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-bold-italic';
+src: url('test-untitled-sans-bold-italic.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-black';
+src: url('test-untitled-sans-black.woff2') format('woff2');
+}
+@font-face {
+font-family: 'untitled-sans-black-italic';
+src: url('test-untitled-sans-black-italic.woff2') format('woff2');
+}
+
+
+/* founders grotesk mono */
+
+/* font-family: 'Founders-Grotesk-mono-light'; */
+/* font-family: 'Founders-Grotesk-mono-regular'; */
+/* font-family: 'Founders-Grotesk-mono-medium'; */
+/* font-family: 'Founders-Grotesk-mono-semibold'; */
+/* font-family: 'Founders-Grotesk-mono-bold'; */
+
+@font-face {
+    font-family: 'Founders-Grotesk-mono-light';
+    src: url('test-founders-grotesk-mono-light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-mono-regular';
+    src: url('test-founders-grotesk-mono-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-mono-medium';
+    src: url('test-founders-grotesk-mono-medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-mono-semibold';
+    src: url('test-founders-grotesk-mono-semibold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-mono-bold';
+    src: url('test-founders-grotesk-mono-bold.woff2') format('woff2');
+}
+
+/* founders grotesk text */
+/* font-family: 'Founders-Grotesk-text-light'; */
+/* font-family: 'Founders-Grotesk-text-light-italic'; */
+/* font-family: 'Founders-Grotesk-text-regular'; */
+/* font-family: 'Founders-Grotesk-text-regular-italic'; */
+/* font-family: 'Founders-Grotesk-text-medium'; */
+/* font-family: 'Founders-Grotesk-text-medium-italic'; */
+/* font-family: 'Founders-Grotesk-text-semibold'; */
+/* font-family: 'Founders-Grotesk-text-semibold-italic'; */
+/* font-family: 'Founders-Grotesk-text-bold'; */
+/* font-family: 'Founders-Grotesk-text-bold-italic'; */
+
+@font-face {
+    font-family: 'Founders-Grotesk-text-light';
+    src: url('test-founders-grotesk-text-light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-light-italic';
+    src: url('test-founders-grotesk-text-light-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-regular';
+    src: url('test-founders-grotesk-text-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-regular-italic';
+    src: url('test-founders-grotesk-text-regular-italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-medium';
+    src: url('test-founders-grotesk-text-medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-medium-italic';
+    src: url('test-founders-grotesk-text-medium-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Founders-Grotesk-text-semibold';
+    src: url('test-founders-grotesk-text-semibold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-semibold-italic';
+    src: url('test-founders-grotesk-text-semibold-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Founders-Grotesk-text-bold';
+    src: url('test-founders-grotesk-text-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Founders-Grotesk-text-bold-italic';
+    src: url('test-founders-grotesk-text-bold-italic.woff2') format('woff2');
+}
+
+/* GT zirkon  */
+/* font-family: 'GT-Zirkon-Ultra-Light'; */
+/* font-family: 'GT-Zirkon-Ultra-Light-Italic'; */
+/* font-family: 'GT-Zirkon-thin'; */
+/* font-family: 'GT-Zirkon-thin-Italic'; */
+/* font-family: 'GT-Zirkon-light'; */
+/* font-family: 'GT-Zirkon-light-Italic'; */
+/* font-family: 'GT-Zirkon-regular'; */
+/* font-family: 'GT-Zirkon-regular-Italic'; */
+/* font-family: 'GT-Zirkon-book'; */
+/* font-family: 'GT-Zirkon-book-italic'; */
+/* font-family: 'GT-Zirkon-medium'; */
+/* font-family: 'GT-Zirkon-medium-italic'; */
+/* font-family: 'GT-Zirkon-bold'; */
+/* font-family: 'GT-Zirkon-bold-italic'; */
+/* font-family: 'GT-Zirkon-black'; */
+/* font-family: 'GT-Zirkon-black-italic'; */
+
+@font-face {
+    font-family: 'GT-Zirkon-Ultra-Light';
+    src: url('GT-Zirkon-Ultra-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-Ultra-Light-Italic';
+    src: url('GT-Zirkon-Ultra-Light-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-thin';
+    src: url('GT-Zirkon-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-thin-Italic';
+    src: url('GT-Zirkon-Thin-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-light';
+    src: url('GT-Zirkon-light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-light-Italic';
+    src: url('GT-Zirkon-light-Italic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GT-Zirkon-regular';
+    src: url('GT-Zirkon-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-regular-italic';
+    src: url('GT-Zirkon-regular-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-book';
+    src: url('GT-Zirkon-book.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GT-Zirkon-book-italic';
+    src: url('GT-Zirkon-book-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-medium';
+    src: url('GT-Zirkon-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-medium-italic';
+    src: url('GT-Zirkon-medium-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-bold';
+    src: url('GT-Zirkon-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-bold-italic';
+    src: url('GT-Zirkon-bold-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GT-Zirkon-black';
+    src: url('GT-Zirkon-black.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GT-Zirkon-black-italic';
+    src: url('GT-Zirkon-black-italic.woff2') format('woff2');
+}
