@@ -1,235 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI Style Guidelines</title>
-    <link rel="stylesheet" href="css/font-styles.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about" class="active">About</a></li>
-          <li><a href="#colors">Colors</a></li>
-          <li><a href="#fonts">Fonts</a></li>
-          <li><a href="#typography">Type</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- landing/about -->
-      <section id="about">
-        <div>
-          <h1>UI Style Guidelines</h1>
-          <p class="body-copy">
-            This is just a challenge project from
-            <a href="https://www.codecademy.com/">Codecademy</a>. <br />Code and
-            design by <a href="https://github.com/a1d3nmam3d0v">Aiden</a>
-          </p>
-        </div>
-        <img src="/media/green_coder.png" />
-        <p class="body-copy" style="text-align: right; margin-right: 100px">
-          illustration by <a href="https://storyset.com/online">Storyset</a>
-        </p>
-      </section>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>UI Style Guide</title>
+        <link rel="stylesheet" href="https://use.typekit.net/kci6lye.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- landing/navigation -->
+        <header>
+            <h1>UI Style Guide</h1>
+            <img src="/img/typing.png" width="50%" />
+        </header>
 
-      <!-- colors -->
-      <section id="colors">
-        <h2>Colors</h2>
-        <div class="color-swatches">
-          <div class="swatch one">
-            <div class="color-info">
-              <h3 class="color-name">blaq</h3>
-              <p class="color-code">#313333</p>
-            </div>
-          </div>
+        <nav>
+            <ul>
+                <li><a href="#colors" class="active">Color</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#typography">Typog</a></li>
+                <li><a href="#buttons">Bttns</a></li>
+            </ul>
+        </nav>
 
-          <div class="swatch two">
-            <div class="color-info">
-              <h3 class="color-name">slime</h3>
-              <p class="color-code">#19e69b</p>
-            </div>
-          </div>
+        <main>
+            <!-- Colors -->
+            <section id="colors">
+                <div>
+                    <h2>Colors</h2>
+                    <h3>Primary palette</h3>
+                </div>
+                <br />
+                <div class="swatches-wrapper">
+                    <div class="swatch one">
+                        <h3 class="color-name" style="color: white">purp</h3>
+                        <h3 class="color-code" style="color: white">#bd1aff</h3>
+                    </div>
 
-          <div class="swatch three">
-            <div class="color-info">
-              <h3 class="color-name">white</h3>
-              <p class="color-code">#f5fffa</p>
-            </div>
-          </div>
+                    <div class="swatch two">
+                        <h3 class="color-name" style="color: white">blu</h3>
+                        <h3 class="color-code" style="color: white">#3b438f</h3>
+                    </div>
 
-          <div class="swatch four">
-            <div class="color-info">
-              <h3 class="color-name">grey</h3>
-              <p class="color-code">#c6c6c6</p>
-            </div>
-          </div>
-        </div>
+                    <div class="swatch three">
+                        <h3 class="color-name" style="color: white">bloozy</h3>
+                        <h3 class="color-code" style="color: white">#4f4fff</h3>
+                    </div>
 
-        <h3 style="margin-top: 20px">Extended color palette</h3>
-        <div class="extended-colors">
-          <h4 class="extended-color">#f6ff8f</h4>
-          <h4 class="extended-color">#3a8a73</h4>
-          <h4 class="extended-color">#e3dcf4</h4>
-          <h4 class="extended-color">#c48ee6</h4>
-          <h4 class="extended-color">#4f4fff</h4>
-          <h4 class="extended-color">#8d8dae</h4>
-          <h4 class="extended-color">#fd6c52</h4>
-          <h4 class="extended-color">#ccb494</h4>
-        </div>
-      </section>
+                    <div class="swatch four">
+                        <h3 class="color-name">mellow</h3>
+                        <h3 class="color-code">#e5ffa3</h3>
+                    </div>
+                    <div class="swatch five">
+                        <h3 class="color-name">yello</h3>
+                        <h3 class="color-code">#ceff1a</h3>
+                    </div>
+                </div>
+            </section>
 
-      <!-- fonts -->
-      <section id="fonts">
-        <h2>Fonts</h2>
-        <div class="wrapper">
-          <div class="font1">
-            <p class="font-name">
-              <span>GT Zirkon</span> –
-              <small
-                >book, book italic, bold, bold italic, black, black
-                italic</small
-              >
+            <!-- Fonts -->
+            <section id="fonts">
+                <h2>Fonts</h2>
+                <h3>IBM's typeface superfamily: Plex</h3>
+                <br />
+
+                <div class="wrapper">
+                    <div class="font1">
+                        <div class="font-name">
+                            <div class="regular">IBM Plex Sans</div>
+                        </div>
+
+                        <button id="normal_button1" class="btn-fill" onclick="make_font1_normal()">Normal</button>
+                        <button id="italic_button1" class="btn-outline italic" onclick="make_font1_italic()">Italic</button>
+
+                        <div id="font1-examples" class="font1_normal">
+                            <p class="light"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="regular"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="text"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="medium"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="semibold"><span>Amazingly few discotheques provide jukeboxe</span></p>
+                            <p class="bold"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                        </div>
+                    </div>
+
+                    <div class="font2">
+                        <div class="font-name">
+                            <div class="regular">IBM Plex Serif</div>
+                        </div>
+
+                        <button id="normal_button2" class="btn-fill" onclick="make_font2_normal()">Normal</button>
+                        <button id="italic_button2" class="btn-outline italic" onclick="make_font2_italic()">Italic</button>
+
+                        <div id="font2-examples" class="font2_normal">
+                            <p class="light"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="regular"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="text"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="medium"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="semibold"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="bold"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                        </div>
+                    </div>
+
+                    <div class="font3">
+                        <div class="font-name">
+                            <div class="regular">IBM Plex Mono</div>
+                        </div>
+
+                        <button id="normal_button3" class="btn-fill" onclick="make_font3_normal()">Normal</button>
+                        <button id="italic_button3" class="btn-outline italic" onclick="make_font3_italic()">Italic</button>
+
+                        <div id="font3-examples" class="font3_normal">
+                            <p class="light"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="regular"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="text"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="medium"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="semibold"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                            <p class="bold"><span>Amazingly few discotheques provide jukeboxes</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Typography -->
+            <section id="typography">
+                <div>
+                    <h2>Typography</h2>
+                </div>
+                <br />
+                <div class="wrapper">
+                    <div class="type-example">
+                        <pre><code>h1 {
+  font-family: "ibm-plex-sans"; 
+  font-size: 60px; 
+  line-height: 1; 
+  font-weight: 800; 
+  text-transform: uppercase; 
+  }</code></pre>
+                        <br />
+                        <h1>Main Title</h1>
+                    </div>
+                    <div class="type-example">
+                        <pre><code>h2 {    
+  font-family: "ibm-plex-sans-condensed";
+  font-size: 45px;
+  line-height: 63px;
+  font-weight: 800;
+  font-style: normal;
+}</code></pre>
+                        <h2>Subheading</h2>
+                    </div>
+
+                    <div class="type-example">
+                        <pre><code>h3 {
+  font-family: "ibm-plex-sans";
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 500;
+  font-style: normal;
+}</code></pre>
+                        <br />
+                        <h3>Sub-subheading</h3>
+                    </div>
+
+                    <div class="type-example">
+                        <pre><code>p {
+  font-family: "ibm-plex-serif";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: normal;
+}</code></pre>
+                        <p class="body-copy">Vivamus porttitor sagittis dolor, at consectetur mauris convallis ac. Aenean aliquet feugiat nisi non ullamcorper. Donec faucibus tellus velit, non ultricies purus volutpat et. Pellentesque ut tempus ipsum, nec mollis augue. Quisque molestie nisl non magna dignissim consectetur. Aliquam et rhoncus massa. Duis ut viverra risus.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buttons -->
+            <section id="buttons">
+                <h2>Buttons</h2>
+                <h3>Primary & secondary</h3>
+                <br /><br />
+                <button class="btn-fill">Button</button>
+                <button class="btn-outline">Button</button>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <p>
+                <a href="https://www.codecademy.com/"><img class="codecademy-logo" src="img/codecademylogo.png" /></a> challenge project - "Build a Website Design System"<br />
+                from the Front-End Engineer career path. Code and design by <a href="https://github.com/a1d3nmam3d0v">Aiden</a> 2023.
             </p>
-            <div class="font-examples">
-              <p>The five boxing wizards jump quickly</p>
-              <p>The five boxing wizards jump quickly</p>
-              <p>The five boxing wizards jump quickly</p>
-              <p>The five boxing wizards jump quickly</p>
-              <p>The five boxing wizards jump quickly</p>
-              <p>The five boxing wizards jump quickly</p>
-            </div>
-          </div>
+        </footer>
 
-          <div class="font2">
-            <p class="font-name">
-              <span>Untitled Sans</span> –
-              <small
-                >regular, italic, bold, bold italic, black, black italic</small
-              >
-            </p>
-            <div class="font-examples">
-              <p>Amazingly few discotheques provide jukeboxes</p>
-              <p style="font-family: 'untitled-sans-regular-italic'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-              <p>Amazingly few discotheques provide jukeboxes</p>
-              <p>Amazingly few discotheques provide jukeboxes</p>
-              <p>Amazingly few discotheques provide jukeboxes</p>
-              <p>Amazingly few discotheques provide jukeboxes</p>
-            </div>
-          </div>
-
-          <div class="font3">
-            <p class="font-name">
-              <span>Untitled Serif</span> –
-              <small
-                >regular, italic, medium, medium italic, bold, bold
-                italic</small
-              >
-            </p>
-            <div class="font-examples">
-              <p>Amazingly few discotheques provide jukeboxes</p>
-              <p style="font-family: 'untitled-serif-regular-italic'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-              <p style="font-family: 'untitled-serif-medium'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-              <p style="font-family: 'untitled-serif-medium-italic'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-              <p style="font-family: 'untitled-serif-bold'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-              <p style="font-family: 'untitled-serif-bold-italic'">
-                Amazingly few discotheques provide jukeboxes
-              </p>
-            </div>
-          </div>
-
-          <div class="font4">
-            <p class="font-name">
-              <span>Founders Grotesk Mono</span> –
-              <small>regular, medium, semibold, bold</small>
-            </p>
-            <div class="font-examples">
-              <p style="font-family: 'founders-grotesk-mono-regular'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-mono-medium'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-mono-semibold'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-mono-bold'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-            </div>
-          </div>
-
-          <div class="font5">
-            <p class="font-name">
-              <span>Founders Grotesk Text</span> –
-              <small>regular, regular italic, bold, bold italic</small>
-            </p>
-            <div class="font-examples">
-              <p style="font-family: 'founders-grotesk-text-regular'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-text-regular-italic'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-text-bold'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-              <p style="font-family: 'founders-grotesk-text-bold-italic'">
-                The quick brown fox jumps over the lazy dog
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- typography -->
-      <section id="typography">
-        <h2>Typography</h2>
-        <div class="wrapper">
-          <div style="border-left: 10px solid #c48ee6; padding-left: 0.5rem">
-            <p>H1 – 60px (GT Zirkon, black)</p>
-            <h1>The Main Title on the Page</h1>
-          </div>
-          <div style="border-left: 10px solid #4f4fff; padding-left: 0.5rem">
-            <p>H2 – 45px (GT Zirkon, bold)</p>
-            <h2 style="margin: unset">Section header</h2>
-          </div>
-          <div style="border-left: 10px solid #8d8dae; padding-left: 0.5rem">
-            <p>H3 – 30px (GT Zirkon, bold italic)</p>
-            <h3>Subheader for sections within a section</h3>
-          </div>
-          <div style="border-left: 10px solid #fd6c52; padding-left: 0.5rem">
-            <p>H4 – 20px (Untitled Sans, medium)</p>
-            <h4>Can be used for labels, captions, etc</h4>
-          </div>
-          <div style="border-left: 10px solid #ccb494; padding-left: 0.5rem">
-            <p>Body – 18px (Untitled Sans, regular)</p>
-            <p class="body-copy" style="max-width: 550px">
-              Vivamus porttitor sagittis dolor, at consectetur mauris convallis
-              ac. Aenean aliquet feugiat nisi non ullamcorper. Donec faucibus
-              tellus velit, non ultricies purus volutpat et. Pellentesque ut
-              tempus ipsum, nec mollis augue. Quisque molestie nisl non magna
-              dignissim consectetur. Aliquam et rhoncus massa. Duis ut viverra
-              risus.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <script src="js/script.js"></script>
-  </body>
+        <script src="js/script.js"></script>
+    </body>
 </html>
